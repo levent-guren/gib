@@ -39,5 +39,6 @@ public class Ornek4 {
 		System.out.println(b3);
 		System.out.println(b | b2); // inclusive or 111
 		System.out.println(b ^ b2); // exclusive or 110
+
 	}
 }
