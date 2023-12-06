@@ -4,6 +4,7 @@ public class Kopek extends Canli {
 	int toplamEnerji = 100;
 
 	void enerjiTuket() { // method overriding
+		System.out.println("Kopek sınıfındaki enerjiTuket çağırıldı");
 		super.enerjiTuket();
 		toplamEnerji -= 10;
 	}
